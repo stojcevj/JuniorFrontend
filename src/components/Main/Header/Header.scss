@@ -1,0 +1,45 @@
+header{
+    .header-elements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .home-text{
+            align-self: center;
+
+            .product-text{
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+        }
+
+        .side-buttons{
+            align-self: center;
+            display: flex;
+            flex-wrap: wrap;
+
+            .add-button{
+                text-decoration: none;
+                color: black;
+                padding: 5px 10px 5px 10px;
+                border: 1px solid black;
+                margin-right: 1.1rem;
+                background-color: transparent;
+                font-size: 1.1rem;
+            }
+
+            .add-button:hover{
+                color:white;
+                background-color: gray;
+                border: 1px solid white;
+            }
+        }
+    }
+
+    .header-hr{
+        width: 75%;
+        border: 1px solid black;
+    }
+    
+    margin-bottom: 3rem;
+}

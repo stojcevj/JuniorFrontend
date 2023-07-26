@@ -1,0 +1,46 @@
+.container{
+    width: 75%;
+    margin: auto;
+    font-size: 1.2rem;
+
+    .form-container{
+        margin-left: 0;
+
+        .txt-desc{
+            color: red;
+        }
+
+        .form{
+            width: auto;
+            margin-left: 10%;
+
+            .errors{
+                width: 50%;
+                display: block;
+                text-align: left;
+            }
+            
+            .duo-input{
+                width: 50%;
+                display: flex;
+                flex-wrap: no-wrap;
+                margin-bottom: 1.1rem;
+
+                label{
+                    text-align: left;
+                    width: 200px;
+                }
+
+                input{
+                    border: 1px solid gray;
+                    border-radius: 5%;
+                }
+                
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    
+}
